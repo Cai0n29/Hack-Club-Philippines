@@ -73,7 +73,29 @@
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
-
+@media only screen and (max-width: 1300px){
+  .header {
+    display: flex;
+    position: sticky;
+    height: 65px;
+    background: linear-gradient(to top left,#ffcfa8, #47c3fc, #ffcfa8);
+    width: 1300px;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+}
+@media only screen and (max-width: 500px){
+  .header {
+    display: flex;
+    position: sticky;
+    height: 65px;
+    background: linear-gradient(to top left,#ffcfa8, #47c3fc, #ffcfa8);
+    width: 700px;
+    justify-content: space-between;
+    align-items: center;
+}
+}
 
 /*.body {
   position: absolute;
