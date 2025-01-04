@@ -80,19 +80,58 @@
    .about{
     font-size: 100%;
     visibility: collapse;
-  
+    
    }
+
    .sen2 {
     visibility: collapse;
   }
- .quote{
-  visibility: collapse;
- }
+
  .button-5{
   right: 160px;
  }
   }
- 
+@media only screen and (max-width: 500px){
+  .community{
+    visibility: visible;
+}
+.background {
+  size: auto;
+  width: fit-content;
+  width: 400px;
+  left: 30px;
+  
+}
+.collaborate{
+visibility: collapse;
+}
+.prize{
+visibility: collapse;
+}
+.Ship{
+visibility: collapse;
+}
+.code{
+visibility: collapse;
+}
+.about{
+font-size: 100%;
+visibility: collapse;
+
+}
+.sen2 {
+visibility: collapse;
+}
+
+.button-5{
+right: 70px;
+top: -400px;
+}
+.HCP{
+  margin-top:30px;
+}
+
+}
    
 /*.about {
     position: absolute;
