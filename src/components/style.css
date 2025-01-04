@@ -58,7 +58,12 @@
         visibility: visible;
     }
    .background {
-      width: 100%;
+      size: auto;
+      width: fit-content;
+      width: 1500px;
+      height: 500px;
+      left: 90px;
+      
    }
    .collaborate{
     visibility: collapse;
@@ -80,7 +85,14 @@
    .sen2 {
     visibility: collapse;
   }
+ .quote{
+  visibility: collapse;
+ }
+ .button-5{
+  right: 160px;
+ }
   }
+ 
    
 /*.about {
     position: absolute;
@@ -106,7 +118,7 @@
   align-items: center;
   justify-content: center;
   margin-top: -400px;
- right: -180px;
+ right: -230px;
 
   gap: 20px;
   color: rgb(15, 25, 121);
@@ -121,7 +133,7 @@
   background: linear-gradient(to left,#ff8400a8, #f18f3fd4, #ff8400a8);
   background-position: center left;
   height: 150px;
-  width: 1450px;
+  width: 1550px;
 }
 
 .about .TECH {
@@ -172,7 +184,7 @@ svg text {
   color: rgb(15, 25, 121);
   gap: 20px;
     align-items: center;
-    right: -100px;
+    right: -230px;
     font-size: 70px;
     text-align: center;
     text-shadow: 0 0 .30em #cabcbc;
@@ -181,7 +193,7 @@ svg text {
     background: linear-gradient(to left,#ff8400a8, #f18f3fd4, #ff8400a8);
 
     height: 130px;
-    width: 1400px;
+    width: 1550px;
     background-position: right;
 }
 
@@ -218,7 +230,7 @@ svg text {
   
 }
 .button-5 {
-    margin-left: 650px;
+    margin-left: 660px;
     margin-top: 50px;
     bottom: 200px;
     position: absolute;
@@ -292,6 +304,7 @@ svg text {
   
   .quote {
     display: flex;
+    position: absolute;
     margin-top: -100px;
     background: linear-gradient(to right, salmon, turquoise);
     color: transparent;
