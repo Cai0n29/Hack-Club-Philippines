@@ -106,7 +106,7 @@
   align-items: center;
   justify-content: center;
   margin-top: -400px;
- right: -100px;
+ right: -380px;
 
   gap: 20px;
   color: rgb(15, 25, 121);
@@ -121,7 +121,7 @@
   background: linear-gradient(to left,#ff8400a8, #f18f3fd4, #ff8400a8);
   background-position: center left;
   height: 150px;
-  width: 1400px;
+  width: 2000px;
 }
 
 .about .TECH {
