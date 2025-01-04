@@ -91,7 +91,7 @@
     position: sticky;
     height: 65px;
     background: linear-gradient(to top left,#ffcfa8, #47c3fc, #ffcfa8);
-    width: 700px;
+    width: 600px;
     justify-content: space-between;
     align-items: center;
 }

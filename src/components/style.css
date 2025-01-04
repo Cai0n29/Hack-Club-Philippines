@@ -91,16 +91,19 @@
   right: 160px;
  }
   }
+
 @media only screen and (max-width: 500px){
+  .HCP .logo{
+    visibility: collapse;
+  }
   .community{
     visibility: visible;
 }
 .background {
   size: auto;
   width: fit-content;
-  width: 800px;
+  width: 700px;
   left: 30px;
-  
 }
 .collaborate{
 visibility: collapse;
@@ -133,6 +136,7 @@ top: -200px;
 .quote{
   visibility: collapse;
 }
+
 
 }
    
