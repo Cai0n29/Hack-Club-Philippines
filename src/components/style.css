@@ -1,0 +1,367 @@
+@import url(https://fonts.googleapis.com/css?family=Manrope);
+@import url("https://fonts.googleapis.com/css?family=Modak");
+@import url("https://fonts.googleapis.com/css?family=Lilita+One");
+@import url('https://fonts.cdnfonts.com/css/chubby');
+@import url('https://fonts.cdnfonts.com/css/kanit');
+@import url('https://fonts.cdnfonts.com/css/afacad-flux');
+.container{
+    position: relative;
+}
+.background {
+    position: relative;
+    width: 700px;
+    height: 500px;
+    margin-top: 30px;
+
+}
+.community{
+    min-width: 400px;
+}
+.collaborate {
+    position: flex;
+    border-radius: 25px;
+    margin-top: -400px;
+    margin-left: 750px;
+    width: 320px;
+    height: 200px;
+}
+.Ship{
+    position:flex;
+    border-radius: 25px;
+    margin-top: -20px;
+    margin-left: 978px;
+    width: 400px;
+    height: 250px;
+}
+.prize{
+    position: flex;
+    border-radius: 25px;
+    margin-top: -210px;
+    margin-left: 720px;
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+}
+.code{
+    position:flex;
+    border-radius: 25px;
+    margin-top: -400px;
+    margin-left: 1095px; 
+    width: 260px;
+    height: 170px;
+    object-fit: cover;
+}
+
+
+@media only screen and (max-width: 1008px) {
+    .community{
+        visibility: visible;
+    }
+   .background {
+      width: 100%;
+   }
+   .collaborate{
+    visibility: collapse;
+   }
+   .prize{
+    visibility: collapse;
+   }
+   .Ship{
+    visibility: collapse;
+   }
+   .code{
+    visibility: collapse;
+   }
+   .about{
+    font-size: 100%;
+    visibility: collapse;
+  
+   }
+   .sen2 {
+    visibility: collapse;
+  }
+  }
+   
+/*.about {
+    position: absolute;
+    color: white;
+    margin-top: -370px;
+    align-items: center;
+    margin-left: 130px;
+    font-size: 45px;
+    text-align: center;
+    text-shadow: 0 0 .30em #cabcbc;
+    background: linear-gradient(to top left,#fd0d05a8,#fc4e1994, #fd0d059d);
+    width: 1100px;
+    background-size: 100px ;
+    letter-spacing: -.63px;
+    font-family: roboto, oxygen, ubuntu, cantarell, fira sans, droid sans, helvetica neue, sans-serif;
+}*/
+
+
+
+.about{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -400px;
+ right: -100px;
+
+  gap: 20px;
+  color: rgb(15, 25, 121);
+    align-items: center;
+    margin-left: 100px;
+    font-size: 70px;
+    text-align: center;
+    text-shadow: 0 0 .30em #cabcbc;
+    letter-spacing: -.63px;
+    font-family: Lilita One;
+  font-weight: 100px;
+  background: linear-gradient(to left,#ff8400a8, #f18f3fd4, #ff8400a8);
+  background-position: center left;
+  height: 150px;
+  width: 1400px;
+}
+
+.about .TECH {
+  height: 100vh;
+  margin-top: -95px;
+}
+
+
+
+svg text {
+  position: absolute;
+  display: flex;
+  font-family: Modak;
+  letter-spacing: 10px;
+  stroke: #f04209;
+  font-size: 110px;
+  font-weight: 700;
+  stroke-width: 2;
+ 
+  animation: textAnimate 5s infinite alternate;
+  
+}
+
+@keyframes textAnimate {
+  0% {
+    stroke-dasharray: 0 50%;
+    stroke-dashoffset:  20%;
+    fill:hsl(33, 78%, 66%)
+
+  }
+  
+  100% {
+    stroke-dasharray: 50% 0;
+    stroke-dashoffstet: -20%;
+    fill: #47c3fc
+ 
+  }
+  
+}
+
+.sen2{
+  text-shadow: 0 0 .30em #cabcbc;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -280px;
+  color: rgb(15, 25, 121);
+  gap: 20px;
+    align-items: center;
+    right: -100px;
+    font-size: 70px;
+    text-align: center;
+    text-shadow: 0 0 .30em #cabcbc;
+    letter-spacing: -.63px;
+    font-family: Lilita One;
+    background: linear-gradient(to left,#ff8400a8, #f18f3fd4, #ff8400a8);
+
+    height: 130px;
+    width: 1400px;
+    background-position: right;
+}
+
+.sen2 .background-text {
+  display: flex;
+  font-family: Chubby;
+  font-size: 89px;
+  letter-spacing: 5px;
+  color: transparent;
+  filter: brightness(115%);
+  background-clip: text;
+  -webkit-animation-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: rgb(8, 29, 125);
+  background-image: url("flag.png");
+  background-size: 80%;
+  animation: bg-animation 20s cubic-bezier(0.3,0,0.7,1) infinite;
+}
+@keyframes bg-animation{
+  0% {background-position: 0% 0%;}
+  50% {background-position: 100% 100%;}
+  100% {background-position: 0% 0%;}
+
+}
+
+
+
+
+
+
+/* CSS */
+@media screen  and (min-width: 801){
+  
+}
+.button-5 {
+    margin-left: 650px;
+    margin-top: 50px;
+    bottom: 200px;
+    position: absolute;
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #5b7b99;
+  border: 2px solid transparent;
+  border-radius: .50rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  min-height: 4rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-5:hover,
+.button-5:focus {
+  background-color: #edd479;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: salmon;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+
+  
+
+@media screen and (max-width: 800px){
+  .button-5{
+  margin-left: 250px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .button-5{
+    margin-left: 180px;
+      bottom: 300px;
+    }
+  }
+  
+  
+  .wrapper {
+    height: 100vh;
+    /*This part is important for centering*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .quote {
+    display: flex;
+    margin-top: -100px;
+    background: linear-gradient(to right, salmon, turquoise);
+    color: transparent;
+    background-clip: text;
+    width: 48ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 2em;
+    margin-left: 300px;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: black
+    }
+  }
+.HCP h2{
+    margin-left: 60px;
+    margin-top: 70px;
+    font-family: "kanit";
+    font-weight: 700;
+    font-size:35px;
+    color:rgb(8, 29, 125)
+  }
+.HCP p{
+  margin-top: 20px;
+  font-family: "kanit";
+  font-weight: 300;
+  font-size:20px;
+  margin-left: 60px;
+  color: rgb(57, 70, 126);
+  word-spacing: 0.px;
+}
+.HCP h3{
+  margin-top: 30px;
+  font-family: "kanit";
+  font-weight: 300;
+  font-size:20px;
+  margin-left: 60px;
+  padding-bottom: 100px;
+  word-spacing: 0.5px;
+  color: rgb(57, 70, 126);
+}
+.HCP .logo{
+  display: flex;
+  margin-top: -380px;
+  margin-left: 830px;
+  width: 410px;
+  height: 350px;
+  border-radius: 10%;
+
+}
+
+
+
+
+  
+
+
+
+
